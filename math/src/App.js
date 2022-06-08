@@ -5,7 +5,7 @@ import Mult from './components/mult';
 function App() {
   return (
     <div className="App">
-      <Mult />
+      <Mult num1={10} num2={2} />
       <hr></hr>
       <Sum />
     </div>
