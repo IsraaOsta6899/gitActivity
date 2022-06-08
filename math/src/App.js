@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Mult num1={10} num2={2} />
       <hr></hr>
-      <Sum />
+      <Sum var1={5} var2={3}/>
     </div>
   );
 }
